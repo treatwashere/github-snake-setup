@@ -15,7 +15,7 @@ Click on "New workflow"
 Choose "set up a workflow yourself"
 2. Configure the Workflow
 Name your file generate-snake.yml and paste the following code:
-
+<
 name: Generate Snake
 
 on:
@@ -48,6 +48,7 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+>
 Make sure to replace YOUR_GITHUB_USERNAME with your actual GitHub username.
 
 3. Commit the Workflow File
@@ -66,12 +67,13 @@ Click on "Generate Snake" in the left sidebar
 Click on "Run workflow"
 6. Update Your README
 After the workflow runs successfully, update your README.md file to display the snake animation:
-
+<
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
-</picture>        
+</picture> 
+>
 Replace YOUR_GITHUB_USERNAME with your actual GitHub username.
 
 Troubleshooting
