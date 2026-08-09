@@ -16,6 +16,7 @@ Choose "set up a workflow yourself"
 2. Configure the Workflow
 Name your file generate-snake.yml and paste the following code:
 '''
+
 name: Generate Snake
 
 on:
@@ -48,6 +49,7 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}        
+
 '''
 Make sure to replace YOUR_GITHUB_USERNAME with your actual GitHub username.
 
